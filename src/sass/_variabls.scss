@@ -1,0 +1,136 @@
+$gray-col: #d9d9d9;
+$green-col: #14a44d;
+$ppl-col: #712df9;
+$ppl-hover-col: #551bc9;
+$gray-light-col: #7a7a7a;
+$commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
+
+// Responsive
+@mixin xxxl {
+  @media only screen and (min-width: 1920px) {
+    @content;
+  }
+}
+@mixin xxl {
+  @media only screen and (min-width: 1400px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin l {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin md {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin sm {
+  @media only screen and (min-width: 425px) {
+    @content;
+  }
+}
+@mixin xsm {
+  @media only screen and (min-width: 310px) {
+    @content;
+  }
+}
+
+// Hero Image
+@mixin heroImage {
+  width: 100%;
+  height: 100%;
+}
+@mixin heroTitle {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+}
+@mixin rAlcommon {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@mixin beforeElement {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #00000000, #010101ba);
+}
+
+@mixin sectionHead {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  color: #000;
+  @include sm {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  @include md {
+    font-weight: 700;
+    font-size: 44px;
+  }
+
+  @include l {
+    font-weight: 700;
+    font-size: 36px;
+  }
+  @include xxl {
+    font-weight: 900;
+    font-size: 60px;
+  }
+}
+
+@mixin hr-devider {
+  width: 100%;
+  height: 8px;
+  background-color: #833ab8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin: 1rem auto;
+}
+
+// Who We Are
+@mixin memberCard {
+  background-color: $gray-col;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+@mixin memberInnerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@mixin memberCardImg {
+  width: 180px;
+  height: 180px;
+  border-radius: 99%;
+  border: 2px solid $ppl-col;
+  margin: 1rem 0;
+}
+
+@mixin green {
+  color: $green-col;
+  font-weight: 500;
+}
+@mixin ppl {
+  color: $ppl-col;
+  font-weight: 500;
+}
+
+// Notice Bord Section
