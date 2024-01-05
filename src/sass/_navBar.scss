@@ -99,6 +99,15 @@
             }
           }
         }
+        #search-button {
+          border-radius: 99%;
+          height: 3rem;
+          width: 2.4rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
       }
 
       .c-right {

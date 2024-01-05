@@ -7,6 +7,9 @@ footer {
   a {
     color: #fff;
   }
+  p {
+    color: #fff;
+  }
   .f-top {
     border-bottom: 1px solid #a6a6a6;
     margin: 0 2rem;
@@ -41,6 +44,7 @@ footer {
             font-size: 18px;
             font-weight: 600;
             padding-right: 10rem;
+            color: #fff;
             @include xsm {
               text-align: center;
               padding-right: 0;
@@ -88,6 +92,7 @@ footer {
           .m-f-head {
             font-size: 18px;
             font-weight: 500;
+            color: #fff;
           }
           .f-menus {
             display: flex;

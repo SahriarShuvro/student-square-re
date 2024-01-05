@@ -1,7 +1,7 @@
 $gray-col: #d9d9d9;
 $green-col: #14a44d;
-$ppl-col: #712df9;
-$ppl-hover-col: #551bc9;
+$ppl-col: #275b2e;
+$ppl-hover-col: #42974d;
 $gray-light-col: #7a7a7a;
 $commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
 
@@ -52,21 +52,39 @@ $commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
   bottom: 1rem;
   left: 1rem;
   color: #fff;
+  transition-duration: 300ms;
+  z-index: 10;
 }
 @mixin rAlcommon {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   position: relative;
+  padding: 0.3rem;
 }
 
 @mixin beforeElement {
   position: absolute;
   content: "";
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  left: 0.3rem;
+  right: 0.3rem;
+  top: 0.3rem;
+  bottom: 0.3rem;
   background: linear-gradient(180deg, #00000000, #010101ba);
+}
+@mixin hoverAfterElement {
+  position: absolute;
+  content: "";
+  left: 0.3rem;
+  right: 0.3rem;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  background: linear-gradient(180deg, rgb(0 0 0 / 48%), rgb(0 0 0 / 28%));
+  top: 0.6rem;
+  bottom: 0.6rem;
+  opacity: 0;
+  transition-duration: 300ms;
 }
 
 @mixin sectionHead {

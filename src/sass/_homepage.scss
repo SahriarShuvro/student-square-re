@@ -14,44 +14,112 @@
         padding: 0;
         .h-lef-sec {
           @include rAlcommon;
+          padding-top: 0.6rem;
+          padding-bottom: 0.6rem;
+          transition-duration: 300ms;
+
           img {
             @include heroImage;
           }
+
           h2 {
             @include heroTitle;
+
+            &:hover {
+              bottom: 3rem;
+            }
           }
 
           &::before {
             @include beforeElement;
+            top: 0.6rem;
+            bottom: 0.6rem;
+            transition-duration: 300ms;
+          }
+
+          &::after {
+            @include hoverAfterElement;
+            top: 0.6rem;
+            bottom: 0.6rem;
+            transition-duration: 300ms;
+          }
+          &:hover::after {
+            opacity: 1;
+          }
+          &:hover h2 {
+            bottom: 3rem;
           }
         }
 
         .h-right-sec {
           @include rAlcommon;
+          @include xsm {
+            padding: 0;
+          }
+          @include md {
+            padding: 0.3rem;
+          }
           .h-r-top {
             position: relative;
+            padding: 0.3rem;
+            transition-duration: 300ms;
 
             &::before {
               @include beforeElement;
+              left: 0.3rem;
+              right: 0.3rem;
+              top: 0.3rem;
+              bottom: 0.3rem;
+              transition-duration: 300ms;
             }
             img {
               @include heroImage;
             }
             h2 {
               @include heroTitle;
+            }
+            &::after {
+              @include hoverAfterElement;
+              top: 0.3rem;
+              bottom: 0.3rem;
+              transition-duration: 300ms;
+            }
+            &:hover::after {
+              opacity: 1;
+            }
+            &:hover h2 {
+              bottom: 3rem;
             }
           }
           .h-r-bottom {
             position: relative;
+            padding: 0.3rem;
+            transition-duration: 300ms;
 
             &::before {
               @include beforeElement;
+              left: 0.3rem;
+              right: 0.3rem;
+              top: 0.3rem;
+              bottom: 0.3rem;
             }
             img {
               @include heroImage;
             }
             h2 {
               @include heroTitle;
+            }
+            &::after {
+              @include hoverAfterElement;
+              top: 0.3rem;
+              bottom: 0.3rem;
+              transition-duration: 300ms;
+            }
+            &:hover::after {
+              opacity: 1;
+            }
+            &:hover h2 {
+              bottom: 3rem;
             }
           }
         }
