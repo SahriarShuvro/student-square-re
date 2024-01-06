@@ -92,4 +92,137 @@ document.getElementById("footer").innerHTML = `
       </div>
     </footer>
 
+    <div id="search-content" class="">
+    <div
+      class="search-box w-75 d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="search-input-box w-75">
+        <div class="form-outline mb-4 main-input" data-mdb-input-init>
+          <input
+            type="search"
+            class="form-control"
+            id="datatable-search-input"
+          />
+          <label class="form-label" for="datatable-search-input"
+            >Search</label
+          >
+        </div>
+      </div>
+      <div class="search-result w-100">
+        <h4 class="s-r-heading">
+          Search for <strong>"Lorem, ipsum dolor."</strong>
+        </h4>
+        <div class="s-r-content">
+          <ul>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Lorem, ipsum dolor.</a
+              >
+              <p class="s-r-short-dis">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reprehenderit aspernatur beatae alias provident pariatur iusto
+                quae vitae delectus, perferendis dolorum quo suscipit, autem
+                voluptas voluptatibus recusandae ad! Cum, unde et.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <nav
+          aria-label="..."
+          class="d-flex align-items-lef justify-content-center"
+        >
+          <ul class="pagination pagination-circle">
+            <li class="page-item">
+              <a class="page-link">
+                <i class="fas fa-circle-left"></i>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#"
+                >2 <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="fas fa-circle-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="datatable"></div>
+    <button type="button" class="cross-btn btn">
+      <i class="fas fa-xmark"></i>
+    </button>
+  </div>
+
 `;

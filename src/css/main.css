@@ -22,6 +22,9 @@ p {
   box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
   font-weight: 700;
 }
+.btn:hover {
+  box-shadow: none !important;
+}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .nav.nav-tabs::-webkit-scrollbar {
@@ -3429,6 +3432,9 @@ section {
     padding: 0;
   }
 }
+.custom-container.who-we-are-page .our-team-section .main-team .tab-section .tab-content .tab-pane .tab-cards {
+  padding: 0 1rem;
+}
 .custom-container.who-we-are-page .our-team-section .main-team .tab-section .tab-content .tab-pane .tab-cards .row .col-md-4 .main-tabs-card {
   margin: 1rem 0;
   background-color: #d9d9d9;
@@ -3960,4 +3966,141 @@ section {
 }
 .custom-container.single-blog-page .s-b-main-page .n-card-section .row .col-md-3 .each-card .card .card-body .card-footer-scetion .days {
   color: rgba(0, 0, 0, 0.4196078431);
+}
+.custom-container {
+  margin: auto;
+  padding: 1rem;
+}
+.custom-container.employee-page .main-container {
+  margin: 2rem 0;
+}
+.custom-container.employee-page .main-container .employee .main-card {
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0;
+}
+.custom-container.employee-page .main-container .employee .main-card img {
+  width: 180px;
+  height: 180px;
+  border-radius: 99%;
+  border: 2px solid #275b2e;
+  margin: 1rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.employee-page .main-container .employee .main-card img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .custom-container.employee-page .main-container .employee .main-card img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .custom-container.employee-page .main-container .employee .main-card img {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .custom-container.employee-page .main-container .employee .main-card img {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .custom-container.employee-page .main-container .employee .main-card img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.employee-page .main-container .employee .main-card h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .custom-container.employee-page .main-container .employee .main-card h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .custom-container.employee-page .main-container .employee .main-card h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .custom-container.employee-page .main-container .employee .main-card h2 {
+    font-size: 24px;
+  }
+}
+.custom-container.employee-page .main-container .employee .main-card h4 {
+  color: #525252;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.employee-page .main-container .employee .main-card h4 {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .custom-container.employee-page .main-container .employee .main-card h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .custom-container.employee-page .main-container .employee .main-card h4 {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .custom-container.employee-page .main-container .employee .main-card h4 {
+    font-size: 20px;
+  }
+}
+.custom-container.employee-page .main-container .employee .main-card p {
+  text-align: center;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.employee-page .main-container .employee .main-card p {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .custom-container.employee-page .main-container .employee .main-card p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .custom-container.employee-page .main-container .employee .main-card p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .custom-container.employee-page .main-container .employee .main-card p {
+    font-size: 16px;
+  }
+}
+.custom-container.employee-page .main-container .employee .main-card button {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #c2ecc8;
+}
+.custom-container.employee-page .main-container .employee .main-card button:hover {
+  box-shadow: none;
+}
+.custom-container.employee-page .main-container .about-employee h3 {
+  font-size: 18px;
+}
+.custom-container.employee-page .main-container .about-employee h3 strong {
+  font-size: 24px;
+}
+.custom-container.employee-page .main-container .about-employee p {
+  margin-bottom: 0.5rem;
 }/*# sourceMappingURL=main.css.map */
