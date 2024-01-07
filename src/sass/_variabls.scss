@@ -231,3 +231,23 @@ $commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
 }
 
 // Notice Bord Section
+.c-w-c {
+  #search-button {
+    border-radius: 99%;
+    height: 3rem;
+    width: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: none !important;
+    padding: 0;
+    color: #313131;
+    @include xsm {
+      display: block;
+    }
+    @media only screen and (min-width: 990px) {
+      display: none;
+    }
+  }
+}

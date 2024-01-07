@@ -47,6 +47,16 @@ p {
   }
 }
 
+@import "./navBar";
+@import "./footer";
+@import "./variabls";
+@import "./homepage";
+@import "./prv-blog-slider";
+@import "./who-we-are";
+@import "./notice-bord";
+@import "./single-blog";
+@import "./employee";
+
 #search-content {
   position: fixed;
   top: 0;
@@ -59,7 +69,7 @@ p {
   backdrop-filter: blur(12.9px);
   -webkit-backdrop-filter: blur(12.9px);
   bottom: 0;
-  z-index: 11;
+  z-index: 13;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -67,7 +77,13 @@ p {
   display: none;
 
   .search-box {
-    position: relative;
+    @include xsm {
+      width: 100%;
+      margin: 1rem 10px;
+    }
+    @include l {
+      width: 75%;
+    }
     .search-input-box {
       background: #fff;
       padding: 1rem;
@@ -143,12 +159,3 @@ p {
     }
   }
 }
-@import "./navBar";
-@import "./footer";
-@import "./variabls";
-@import "./homepage";
-@import "./prv-blog-slider";
-@import "./who-we-are";
-@import "./notice-bord";
-@import "./single-blog";
-@import "./employee";

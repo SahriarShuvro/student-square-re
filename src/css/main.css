@@ -47,84 +47,26 @@ p {
   }
 }
 
-#search-content {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.43);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(12.9px);
-  -webkit-backdrop-filter: blur(12.9px);
-  bottom: 0;
-  z-index: 11;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 3rem;
-  display: none;
-}
-#search-content .search-box {
-  position: relative;
-}
-#search-content .search-box .search-input-box {
-  background: #fff;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-}
-#search-content .search-box .search-input-box .main-input {
-  margin: 0 !important;
-}
-#search-content .search-box .search-result {
-  background: #fff;
-  border-radius: 10px;
-  padding: 1rem;
-  height: 80vh;
-  overflow-y: scroll;
-}
-#search-content .search-box .search-result::-webkit-scrollbar {
-  width: 0; /* Set the width to 0 to hide the scrollbar */
-}
-#search-content .search-box .search-result .s-r-heading {
-  margin-bottom: 1rem;
-}
-#search-content .search-box .search-result .s-r-heading strong {
-  text-decoration: underline;
-}
-#search-content .search-box .search-result .s-r-content ul li {
-  list-style: none;
-}
-#search-content .search-box .search-result .s-r-content ul li::before {
-  content: "🔎"; /* Replace '\e123' with the actual content code for your MDB icon */
-  font-family: "magnifying-glass";
-}
-#search-content .search-box .search-result .s-r-content ul li a {
-  text-decoration: underline;
-  font-weight: 600;
-}
-#search-content .cross-btn {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  z-index: 1000;
-  background: #fff;
+.c-w-c #search-button {
   border-radius: 99%;
   height: 3rem;
-  width: 2rem;
+  width: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
-  transition-duration: 0.3s;
-}
-#search-content .cross-btn:hover {
   box-shadow: none !important;
+  padding: 0;
+  color: #313131;
 }
-#search-content .cross-btn i {
-  font-size: 18px;
-  color: red;
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 310px) {
@@ -160,7 +102,7 @@ p {
     position: absolute;
     top: 5rem;
     left: 0;
-    z-index: 10;
+    z-index: 12;
     background: #fff;
     right: 0;
     padding: 1rem;
@@ -232,6 +174,28 @@ p {
     margin: 5px 0;
     font-size: 14px;
     font-weight: 600;
+  }
+}
+
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
   }
 }
 
@@ -611,6 +575,50 @@ footer .f-bottom .row .col-md-4 .copyright p {
   footer .f-bottom .row .col-md-4 .copyright p {
     text-align: right;
     font-size: 16px;
+  }
+}
+
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
+}
+
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
   }
 }
 
@@ -2958,6 +2966,28 @@ footer .f-bottom .row .col-md-4 .copyright p {
   }
 }
 
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
+}
+
 /* Galerry Slider  */
 .gallery-section {
   padding: 3rem 0;
@@ -3101,6 +3131,28 @@ section {
 
 .indicators {
   display: none;
+}
+
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
 }
 
 .custom-container {
@@ -3844,6 +3896,28 @@ section {
   }
 }
 
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
+}
+
 .custom-container {
   margin: auto;
   padding: 1rem;
@@ -4050,6 +4124,28 @@ section {
 .custom-container.notice-bord-page .top-filter-section .pagination-c ul li .page-link:focus {
   background: rgba(20, 164, 77, 0.1803921569);
   color: #14a44d;
+}
+
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
 }
 
 .custom-container {
@@ -4271,6 +4367,28 @@ section {
 .custom-container.single-blog-page .s-b-main-page .n-card-section .row .col-md-3 .each-card .card .card-body .card-footer-scetion .days {
   color: rgba(0, 0, 0, 0.4196078431);
 }
+.c-w-c #search-button {
+  border-radius: 99%;
+  height: 3rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+  padding: 0;
+  color: #313131;
+}
+@media only screen and (min-width: 310px) {
+  .c-w-c #search-button {
+    display: block;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .c-w-c #search-button {
+    display: none;
+  }
+}
+
 .custom-container {
   margin: auto;
   padding: 1rem;
@@ -4407,4 +4525,92 @@ section {
 }
 .custom-container.employee-page .main-container .about-employee p {
   margin-bottom: 0.5rem;
+}
+
+#search-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.43);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.9px);
+  -webkit-backdrop-filter: blur(12.9px);
+  bottom: 0;
+  z-index: 13;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 3rem;
+  display: none;
+}
+@media only screen and (min-width: 310px) {
+  #search-content .search-box {
+    width: 100%;
+    margin: 1rem 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #search-content .search-box {
+    width: 75%;
+  }
+}
+#search-content .search-box .search-input-box {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+#search-content .search-box .search-input-box .main-input {
+  margin: 0 !important;
+}
+#search-content .search-box .search-result {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  height: 80vh;
+  overflow-y: scroll;
+}
+#search-content .search-box .search-result::-webkit-scrollbar {
+  width: 0; /* Set the width to 0 to hide the scrollbar */
+}
+#search-content .search-box .search-result .s-r-heading {
+  margin-bottom: 1rem;
+}
+#search-content .search-box .search-result .s-r-heading strong {
+  text-decoration: underline;
+}
+#search-content .search-box .search-result .s-r-content ul li {
+  list-style: none;
+}
+#search-content .search-box .search-result .s-r-content ul li::before {
+  content: "🔎"; /* Replace '\e123' with the actual content code for your MDB icon */
+  font-family: "magnifying-glass";
+}
+#search-content .search-box .search-result .s-r-content ul li a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+#search-content .cross-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 99%;
+  height: 3rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+  transition-duration: 0.3s;
+}
+#search-content .cross-btn:hover {
+  box-shadow: none !important;
+}
+#search-content .cross-btn i {
+  font-size: 18px;
+  color: red;
 }/*# sourceMappingURL=main.css.map */

@@ -18,7 +18,12 @@ document.getElementById("navBar").innerHTML = `
       </div>
 
       <!-- Container wrapper -->
-      <div class="container-fluid nav-center">
+      <div class="container-fluid nav-center c-w-c">
+
+      <button type="button" class="btn btn-link search-button" id="search-button" style="">
+          <i class="fas fa-magnifying-glass"></i>
+        </button>
+
         <!-- Toggle button -->
         <button
           class="navbar-toggler px-0"
@@ -386,7 +391,7 @@ document.getElementById("navBar").innerHTML = `
         <li class="nav-item me-3 me-lg-1 c-left">
         <button 
           type="button"
-          class="btn btn-link"
+          class="btn btn-link search-button"
           id="search-button"
         >
           <i class="fas fa-magnifying-glass"></i>

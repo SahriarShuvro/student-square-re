@@ -92,9 +92,13 @@ document.getElementById("footer").innerHTML = `
       </div>
     </footer>
 
+
+
+
+
     <div id="search-content" class="">
     <div
-      class="search-box w-75 d-flex flex-column justify-content-center align-items-center"
+      class="search-box  d-flex flex-column justify-content-center align-items-center"
     >
       <div class="search-input-box w-75">
         <div class="form-outline mb-4 main-input" data-mdb-input-init>
