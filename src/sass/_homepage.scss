@@ -138,6 +138,10 @@
         color: #000;
         font-size: 22px;
         margin: 2rem 0;
+        @include xsm {
+          font-size: 13px;
+          margin: 1rem 0;
+        }
         @include sm {
           font-size: 13px;
           margin: 1rem 0;
@@ -182,6 +186,10 @@
                   box-shadow: none;
                 }
 
+                @include xsm {
+                  margin: 1rem 0;
+                  border-radius: 40px;
+                }
                 @include sm {
                   margin: 1rem 0;
                   border-radius: 40px;
@@ -201,6 +209,11 @@
                   border-radius: 99%;
                   object-fit: cover;
                   margin-bottom: 1rem;
+
+                  @include xsm {
+                    width: 200px;
+                    height: 200px;
+                  }
                   @include sm {
                     width: 200px;
                     height: 200px;
@@ -307,6 +320,9 @@
         color: #000;
         margin-top: 6rem;
 
+        @include xsm {
+          font-size: 25px;
+        }
         @include sm {
           font-size: 25px;
         }
@@ -332,64 +348,9 @@
         margin: 2rem 0;
 
         .main-btn {
-          background-color: #d9d9d9;
-          padding: 0.5rem 0.2rem;
-          border-radius: 0.5rem;
-
-          @include sm {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            padding: 0.5rem;
-          }
-          @include md {
-            flex-direction: row;
-          }
+          @include buttonGroup;
           button {
-            background-color: #fff;
-            box-shadow: none;
-            border-radius: 0.5rem;
-            padding: 0.3rem 4rem;
-            margin: 0 0.7rem;
-            transition-duration: 300ms;
-            width: 350px;
-            font-weight: 700;
-
-            @include sm {
-              margin: 5px 0;
-            }
-            @include md {
-              width: 190px;
-              font-weight: 700;
-              font-size: 10px;
-              padding: 0.3rem 0;
-              margin: 0 5px;
-            }
-            @include l {
-              width: 290px;
-              font-weight: 700;
-              font-size: 10px;
-            }
-            @include xl {
-              width: 350px;
-              font-weight: 700;
-              font-size: 13px;
-            }
-
-            &:hover {
-              background-color: $green-col;
-              color: #fff;
-            }
-            &:active {
-              background-color: $green-col;
-              color: #fff;
-            }
-            &:focus {
-              background-color: $green-col;
-              color: #fff;
-            }
+            @include buttonGroupSingleBTN;
           }
         }
       }
@@ -492,6 +453,18 @@
           background-color: #d9d9d9;
           padding: 0.5rem 0.2rem;
           border-radius: 0.5rem;
+
+          @include xsm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 0.5rem;
+          }
+          @include sm {
+            flex-direction: row;
+          }
           button {
             background-color: #fff;
             box-shadow: none;
@@ -502,6 +475,10 @@
             width: 150px;
             font-weight: 700;
             cursor: default;
+
+            @include xsm {
+              margin: 5px 0;
+            }
           }
           input {
             background-color: #fff;
@@ -542,6 +519,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include xsm {
+                  height: 100%;
+                  width: 100%;
+                }
                 @include sm {
                   height: 100%;
                   width: 100%;
@@ -623,78 +605,9 @@
         margin: 2rem 0;
 
         .main-btn {
-          background-color: #d9d9d9;
-          padding: 0.5rem 0.2rem;
-          border-radius: 0.5rem;
-
-          @include sm {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            padding: 0.5rem;
-          }
-          @include md {
-            flex-direction: row;
-          }
+          @include buttonGroup;
           button {
-            background-color: #fff;
-            box-shadow: none;
-            border-radius: 0.5rem;
-            padding: 0.3rem 4rem;
-            margin: 0 0.7rem;
-            transition-duration: 300ms;
-            width: 350px;
-            font-weight: 700;
-            @include sm {
-              margin: 5px 0;
-            }
-            @include md {
-              width: 190px;
-              font-weight: 700;
-              font-size: 10px;
-              padding: 0.3rem 0;
-              margin: 0 5px;
-            }
-            @include l {
-              width: 290px;
-              font-weight: 700;
-              font-size: 10px;
-            }
-            @include xl {
-              width: 350px;
-              font-weight: 700;
-              font-size: 13px;
-            }
-            &:hover {
-              background-color: $green-col;
-              color: #fff;
-            }
-            &:active {
-              background-color: $green-col;
-              color: #fff;
-            }
-            &:focus {
-              background-color: $green-col;
-              color: #fff;
-            }
-            @include md {
-              width: 190px;
-              font-weight: 700;
-              font-size: 10px;
-              padding: 0.3rem 0;
-            }
-            @include l {
-              width: 290px;
-              font-weight: 700;
-              font-size: 10px;
-            }
-            @include xl {
-              width: 350px;
-              font-weight: 700;
-              font-size: 13px;
-            }
+            @include buttonGroupSingleBTN;
           }
         }
       }
@@ -728,6 +641,10 @@
                 box-shadow: none;
               }
 
+              @include xsm {
+                margin: 1rem 0;
+                border-radius: 40px;
+              }
               @include sm {
                 margin: 1rem 0;
                 border-radius: 40px;
@@ -746,6 +663,10 @@
                 border-radius: 99%;
                 object-fit: cover;
                 margin-bottom: 1rem;
+                @include xsm {
+                  width: 200px;
+                  height: 200px;
+                }
                 @include sm {
                   width: 200px;
                   height: 200px;
@@ -808,6 +729,16 @@
         background-color: #f2f2f2;
         border-radius: 40px;
         padding: 3rem;
+
+        @include xsm {
+          padding: 1rem;
+        }
+        @include md {
+          padding: 2rem;
+        }
+        @include l {
+          padding: 3rem;
+        }
         .row {
           .col-md-3 {
             .each-card {
@@ -837,6 +768,12 @@
                 padding-bottom: 2rem;
                 color: #000;
 
+                @include xsm {
+                  font-size: 11px;
+                }
+                @include sm {
+                  font-size: 11px;
+                }
                 @include l {
                   font-size: 13px;
                 }
@@ -856,6 +793,10 @@
           font-size: 2.3rem;
           z-index: 10;
           cursor: pointer;
+
+          @include xsm {
+            right: -1.5rem;
+          }
         }
         .prevArro {
           position: absolute;
@@ -865,6 +806,9 @@
           font-size: 2.3rem;
           z-index: 10;
           cursor: pointer;
+          @include xsm {
+            left: -1.5rem;
+          }
         }
       }
     }
@@ -1116,6 +1060,11 @@
             padding: 3rem;
             background-color: $gray-col;
 
+            @include xsm {
+              margin: 0;
+              margin-bottom: 3rem;
+              padding: 2rem;
+            }
             @include sm {
               margin: 0;
               margin-bottom: 3rem;
@@ -1131,6 +1080,10 @@
               font-weight: 900;
               font-size: 54px;
 
+              @include xsm {
+                font-weight: 700;
+                font-size: 27px;
+              }
               @include sm {
                 font-weight: 700;
                 font-size: 27px;
@@ -1185,6 +1138,9 @@
                 img {
                   width: 300px;
 
+                  @include xsm {
+                    width: 140px;
+                  }
                   @include sm {
                     width: 140px;
                   }
@@ -1253,6 +1209,11 @@
           padding: 3rem;
           font-size: 30px;
 
+          @include xsm {
+            padding: 2rem 0;
+            font-weight: 700;
+            font-size: 18px;
+          }
           @include sm {
             font-weight: 700;
             font-size: 18px;
@@ -1315,7 +1276,12 @@
         justify-content: center;
         align-items: center;
         margin: auto;
+        position: relative;
 
+        @include xsm {
+          width: 100%;
+          border-radius: 10px;
+        }
         @include sm {
           width: 100%;
           border-radius: 10px;
@@ -1347,6 +1313,13 @@
             border-radius: 10px;
             height: 142px;
             margin-left: 1rem;
+            @include xsm {
+              width: 100px;
+              height: 96px;
+              border-radius: 5px;
+              margin-left: 0.2rem;
+              object-fit: cover;
+            }
             @include sm {
               width: 150px;
               margin-left: 0;
@@ -1358,6 +1331,10 @@
           }
           .dis {
             padding: 1rem 2rem;
+            @include xsm {
+              padding: 0.2rem 0;
+              padding-left: 1rem;
+            }
             @include sm {
               padding: 1rem 10px;
             }
@@ -1369,6 +1346,10 @@
               height: 32px;
               border-radius: 0px;
               margin-left: 0;
+              @include xsm {
+                width: 40px;
+                height: 15px;
+              }
               @include sm {
                 width: 40px;
                 height: 15px;
@@ -1383,6 +1364,10 @@
               font-weight: 700;
               color: #000;
               margin-bottom: 5px;
+              @include xsm {
+                font-size: 10px;
+                line-height: 1.3;
+              }
               @include sm {
                 font-size: 12px;
               }
@@ -1395,6 +1380,9 @@
               font-weight: 500;
               color: #000;
               margin-bottom: 0px;
+              @include xsm {
+                font-size: 8px;
+              }
               @include sm {
                 font-size: 10px;
               }
@@ -1408,12 +1396,36 @@
         .slick-arrow {
           font-size: 30px;
           cursor: pointer;
+          position: absolute;
+        }
+        .prevArro {
+          position: absolute;
+          left: -0.5rem;
+          width: auto;
+          top: 48%;
+          font-size: 16px;
+          z-index: 10;
+          cursor: pointer;
+          color: #104124;
+        }
+        .nextArro {
+          position: absolute;
+          right: -0.5rem;
+          width: auto;
+          top: 48%;
+          font-size: 16px;
+          z-index: 10;
+          cursor: pointer;
+          color: #104124;
         }
       }
 
       .subSlider {
         width: 40%;
         margin: auto;
+        @include xsm {
+          width: 100%;
+        }
         @include sm {
           width: 100%;
         }
@@ -1506,6 +1518,9 @@
               box-shadow: none;
             }
 
+            @include xsm {
+              margin: 0.5rem 0;
+            }
             @include sm {
               margin: 1rem 0;
             }

@@ -818,6 +818,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   text-align: center;
   color: #000;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two h1 {
     font-weight: 700;
@@ -847,6 +853,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   font-size: 22px;
   margin: 2rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two p {
+    font-size: 13px;
+    margin: 1rem 0;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two p {
@@ -897,6 +909,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
 .custom-container .section-two-main .section-two .section-two-card1 .row .col-md-4 .each-card:hover {
   box-shadow: none;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two .section-two-card1 .row .col-md-4 .each-card {
+    margin: 1rem 0;
+    border-radius: 40px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two .section-two-card1 .row .col-md-4 .each-card {
     margin: 1rem 0;
@@ -922,6 +940,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1rem;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two .section-two-card1 .row .col-md-4 .each-card img {
+    width: 200px;
+    height: 200px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two .section-two-card1 .row .col-md-4 .each-card img {
@@ -988,6 +1012,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
 .custom-container .section-two-main .section-two .section-two-card2 .row .col-md-4 .each-card:hover {
   box-shadow: none;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two .section-two-card2 .row .col-md-4 .each-card {
+    margin: 1rem 0;
+    border-radius: 40px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two .section-two-card2 .row .col-md-4 .each-card {
     margin: 1rem 0;
@@ -1013,6 +1043,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1rem;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two .section-two-card2 .row .col-md-4 .each-card img {
+    width: 200px;
+    height: 200px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two .section-two-card2 .row .col-md-4 .each-card img {
@@ -1130,6 +1166,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   margin-top: 6rem;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-two-main .section-two h3 {
+    font-size: 25px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-two-main .section-two h3 {
     font-size: 25px;
@@ -1150,6 +1191,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   font-size: 60px;
   text-align: center;
   color: #000;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-three-main .section-three h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-three-main .section-three h1 {
@@ -1186,6 +1233,16 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding: 0.5rem 0.2rem;
   border-radius: 0.5rem;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-three-main .section-three .button-grupe .main-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-three-main .section-three .button-grupe .main-btn {
     display: flex;
@@ -1210,6 +1267,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   transition-duration: 300ms;
   width: 350px;
   font-weight: 700;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-three-main .section-three .button-grupe .main-btn button {
+    margin: 5px 0;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-three-main .section-three .button-grupe .main-btn button {
@@ -1347,6 +1410,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   text-align: center;
   color: #000;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-four-main .section-four h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-four-main .section-four h1 {
     font-weight: 700;
@@ -1382,6 +1451,21 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding: 0.5rem 0.2rem;
   border-radius: 0.5rem;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-four-main .section-four .button-grupe .main-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .custom-container .section-four-main .section-four .button-grupe .main-btn {
+    flex-direction: row;
+  }
+}
 .custom-container .section-four-main .section-four .button-grupe .main-btn button {
   background-color: #fff;
   box-shadow: none;
@@ -1392,6 +1476,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
   width: 150px;
   font-weight: 700;
   cursor: default;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-four-main .section-four .button-grupe .main-btn button {
+    margin: 5px 0;
+  }
 }
 .custom-container .section-four-main .section-four .button-grupe .main-btn input {
   background-color: #fff;
@@ -1439,6 +1528,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-four-main .section-four .maga-card .row .col-md-3 .each-card img {
+    height: 100%;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-four-main .section-four .maga-card .row .col-md-3 .each-card img {
@@ -1525,6 +1620,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   text-align: center;
   color: #000;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-five-main .section-five h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-five-main .section-five h1 {
     font-weight: 700;
@@ -1560,6 +1661,16 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding: 0.5rem 0.2rem;
   border-radius: 0.5rem;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-five-main .section-five .button-grupe .main-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-five-main .section-five .button-grupe .main-btn {
     display: flex;
@@ -1584,6 +1695,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   transition-duration: 300ms;
   width: 350px;
   font-weight: 700;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-five-main .section-five .button-grupe .main-btn button {
+    margin: 5px 0;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-five-main .section-five .button-grupe .main-btn button {
@@ -1625,28 +1742,6 @@ footer .f-bottom .row .col-md-4 .copyright p {
   background-color: #14a44d;
   color: #fff;
 }
-@media only screen and (min-width: 768px) {
-  .custom-container .section-five-main .section-five .button-grupe .main-btn button {
-    width: 190px;
-    font-weight: 700;
-    font-size: 10px;
-    padding: 0.3rem 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .custom-container .section-five-main .section-five .button-grupe .main-btn button {
-    width: 290px;
-    font-weight: 700;
-    font-size: 10px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .custom-container .section-five-main .section-five .button-grupe .main-btn button {
-    width: 350px;
-    font-weight: 700;
-    font-size: 13px;
-  }
-}
 .custom-container .section-five-main .section-five .hr-d {
   width: 100%;
   height: 8px;
@@ -1683,6 +1778,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
 .custom-container .section-five-main .section-five .section-two-card .row .col-md-4 .each-card:hover {
   box-shadow: none;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-five-main .section-five .section-two-card .row .col-md-4 .each-card {
+    margin: 1rem 0;
+    border-radius: 40px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-five-main .section-five .section-two-card .row .col-md-4 .each-card {
     margin: 1rem 0;
@@ -1708,6 +1809,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 1rem;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-five-main .section-five .section-two-card .row .col-md-4 .each-card img {
+    width: 200px;
+    height: 200px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-five-main .section-five .section-two-card .row .col-md-4 .each-card img {
@@ -1772,6 +1879,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   margin: 3rem 0;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-six-main .section-six h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-six-main .section-six h1 {
     font-weight: 700;
@@ -1800,6 +1913,21 @@ footer .f-bottom .row .col-md-4 .copyright p {
   background-color: #f2f2f2;
   border-radius: 40px;
   padding: 3rem;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-six-main .section-six .ins-card {
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .custom-container .section-six-main .section-six .ins-card {
+    padding: 2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .custom-container .section-six-main .section-six .ins-card {
+    padding: 3rem;
+  }
 }
 .custom-container .section-six-main .section-six .ins-card .row .col-md-3 .each-card {
   background-color: #fff;
@@ -1832,6 +1960,16 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding-bottom: 2rem;
   color: #000;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-six-main .section-six .ins-card .row .col-md-3 .each-card .dis {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .custom-container .section-six-main .section-six .ins-card .row .col-md-3 .each-card .dis {
+    font-size: 11px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .custom-container .section-six-main .section-six .ins-card .row .col-md-3 .each-card .dis {
     font-size: 13px;
@@ -1851,6 +1989,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
   z-index: 10;
   cursor: pointer;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-six-main .section-six .ins-card .nextArro {
+    right: -1.5rem;
+  }
+}
 .custom-container .section-six-main .section-six .ins-card .prevArro {
   position: absolute;
   left: -2.5rem;
@@ -1859,6 +2002,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
   font-size: 2.3rem;
   z-index: 10;
   cursor: pointer;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-six-main .section-six .ins-card .prevArro {
+    left: -1.5rem;
+  }
 }
 .custom-container .section-seven-main .section-seven {
   position: relative;
@@ -2046,6 +2194,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   margin: 1rem 0;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-seven-main .section-seven.mob-sec .mySwiper swiper-slide .c-w-logo-slider h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-seven-main .section-seven.mob-sec .mySwiper swiper-slide .c-w-logo-slider h2 {
     font-weight: 700;
@@ -2114,6 +2268,13 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding: 3rem;
   background-color: #d9d9d9;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec {
+    margin: 0;
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec {
     margin: 0;
@@ -2134,6 +2295,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   font-weight: 900;
   font-size: 54px;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec h1 {
+    font-weight: 700;
+    font-size: 27px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec h1 {
@@ -2204,6 +2371,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
 .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec .app-section a img {
   width: 300px;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec .app-section a img {
+    width: 140px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container .section-eight-main .section-eight .row .a-p-s-left .main-left-sec .app-section a img {
     width: 140px;
@@ -2257,6 +2429,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   text-decoration: underline;
 }
+@media only screen and (min-width: 310px) {
+  .section-nine-main .section-nine h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-nine-main .section-nine h1 {
     font-weight: 700;
@@ -2297,6 +2475,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #fff;
   margin-bottom: 3rem;
 }
+@media only screen and (min-width: 310px) {
+  .section-nine-main .section-nine .slider-nine #slider-2 h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-nine-main .section-nine .slider-nine #slider-2 h2 {
     font-weight: 700;
@@ -2330,6 +2514,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   padding: 3rem;
   font-size: 30px;
 }
+@media only screen and (min-width: 310px) {
+  .section-nine-main .section-nine .slider-nine #slider-2 p {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-nine-main .section-nine .slider-nine #slider-2 p {
     font-weight: 700;
@@ -2352,6 +2542,13 @@ footer .f-bottom .row .col-md-4 .copyright p {
   .section-nine-main .section-nine .slider-nine #slider-2 p {
     font-weight: 900;
     font-size: 60px;
+  }
+}
+@media only screen and (min-width: 310px) {
+  .section-nine-main .section-nine .slider-nine #slider-2 p {
+    padding: 2rem 0;
+    font-weight: 700;
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 425px) {
@@ -2413,6 +2610,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #fff;
   font-size: 40px;
 }
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten h4 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten h4 {
     font-weight: 700;
@@ -2448,6 +2651,13 @@ footer .f-bottom .row .col-md-4 .copyright p {
   justify-content: center;
   align-items: center;
   margin: auto;
+  position: relative;
+}
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider {
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider {
@@ -2493,6 +2703,16 @@ footer .f-bottom .row .col-md-4 .copyright p {
   height: 142px;
   margin-left: 1rem;
 }
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider .main-slider img {
+    width: 100px;
+    height: 96px;
+    border-radius: 5px;
+    margin-left: 0.2rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider .main-slider img {
     width: 150px;
@@ -2507,6 +2727,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
 }
 .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis {
   padding: 1rem 2rem;
+}
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis {
+    padding: 0.2rem 0;
+    padding-left: 1rem;
+  }
 }
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis {
@@ -2523,6 +2749,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   height: 32px;
   border-radius: 0px;
   margin-left: 0;
+}
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis img {
+    width: 40px;
+    height: 15px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis img {
@@ -2542,6 +2774,12 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   margin-bottom: 5px;
 }
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis .newsTitle {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis .newsTitle {
     font-size: 12px;
@@ -2558,6 +2796,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
   color: #000;
   margin-bottom: 0px;
 }
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis .subtitle {
+    font-size: 8px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .main-n-slider .main-slider .dis .subtitle {
     font-size: 10px;
@@ -2571,10 +2814,36 @@ footer .f-bottom .row .col-md-4 .copyright p {
 .section-ten-main .section-ten .news-slider .main-n-slider .slick-arrow {
   font-size: 30px;
   cursor: pointer;
+  position: absolute;
+}
+.section-ten-main .section-ten .news-slider .main-n-slider .prevArro {
+  position: absolute;
+  left: -0.5rem;
+  width: auto;
+  top: 48%;
+  font-size: 16px;
+  z-index: 10;
+  cursor: pointer;
+  color: #104124;
+}
+.section-ten-main .section-ten .news-slider .main-n-slider .nextArro {
+  position: absolute;
+  right: -0.5rem;
+  width: auto;
+  top: 48%;
+  font-size: 16px;
+  z-index: 10;
+  cursor: pointer;
+  color: #104124;
 }
 .section-ten-main .section-ten .news-slider .subSlider {
   width: 40%;
   margin: auto;
+}
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten .news-slider .subSlider {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten .news-slider .subSlider {
@@ -2672,6 +2941,11 @@ footer .f-bottom .row .col-md-4 .copyright p {
 }
 .section-ten-main .section-ten-two .partner-box .row .col-md-3 .p-main-box:hover {
   box-shadow: none;
+}
+@media only screen and (min-width: 310px) {
+  .section-ten-main .section-ten-two .partner-box .row .col-md-3 .p-main-box {
+    margin: 0.5rem 0;
+  }
 }
 @media only screen and (min-width: 425px) {
   .section-ten-main .section-ten-two .partner-box .row .col-md-3 .p-main-box {
@@ -2851,6 +3125,12 @@ section {
   text-align: center;
   color: #000;
   margin: 3rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.who-we-are-page .our-bord-section .o-bord-sec h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container.who-we-are-page .our-bord-section .o-bord-sec h1 {
@@ -3145,6 +3425,12 @@ section {
   color: #000;
   margin: 3rem 0;
 }
+@media only screen and (min-width: 310px) {
+  .custom-container.who-we-are-page .our-advisory-panel .main-a-p-section h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
 @media only screen and (min-width: 425px) {
   .custom-container.who-we-are-page .our-advisory-panel .main-a-p-section h1 {
     font-weight: 700;
@@ -3318,6 +3604,12 @@ section {
   text-align: center;
   color: #000;
   margin: 3rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.who-we-are-page .our-team-section .main-team h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container.who-we-are-page .our-team-section .main-team h1 {
@@ -3563,6 +3855,12 @@ section {
   text-align: center;
   color: #000;
   margin: 3rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.notice-bord-page .top-filter-section h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container.notice-bord-page .top-filter-section h1 {
@@ -3890,6 +4188,12 @@ section {
   color: #000;
   text-transform: capitalize;
   margin: 3rem 0;
+}
+@media only screen and (min-width: 310px) {
+  .custom-container.single-blog-page .s-b-main-page .n-card-section .s-s-title h1 {
+    font-weight: 700;
+    font-size: 28px;
+  }
 }
 @media only screen and (min-width: 425px) {
   .custom-container.single-blog-page .s-b-main-page .n-card-section .s-s-title h1 {

@@ -92,6 +92,10 @@ $commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
   font-size: 60px;
   text-align: center;
   color: #000;
+  @include xsm {
+    font-weight: 700;
+    font-size: 28px;
+  }
   @include sm {
     font-weight: 700;
     font-size: 28px;
@@ -140,6 +144,81 @@ $commn-box-shadow: 3px 3px 4px 0px #313131, 0px 0 0 #000000;
   border-radius: 99%;
   border: 2px solid $ppl-col;
   margin: 1rem 0;
+}
+
+@mixin buttonGroup {
+  background-color: #d9d9d9;
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.5rem;
+
+  @include xsm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+  @include sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+  @include md {
+    flex-direction: row;
+  }
+}
+
+@mixin buttonGroupSingleBTN {
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 4rem;
+  margin: 0 0.7rem;
+  transition-duration: 300ms;
+  width: 350px;
+  font-weight: 700;
+
+  @include xsm {
+    margin: 5px 0;
+    width: 100%;
+  }
+  @include sm {
+    margin: 5px 0;
+  }
+  @include md {
+    width: 190px;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 0.3rem 0;
+    margin: 0 5px;
+  }
+  @include l {
+    width: 290px;
+    font-weight: 700;
+    font-size: 10px;
+  }
+  @include xl {
+    width: 350px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  &:hover {
+    background-color: $green-col;
+    color: #fff;
+  }
+  &:active {
+    background-color: $green-col;
+    color: #fff;
+  }
+  &:focus {
+    background-color: $green-col;
+    color: #fff;
+  }
 }
 
 @mixin green {

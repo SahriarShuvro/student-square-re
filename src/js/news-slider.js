@@ -28,6 +28,13 @@
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 310,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   });
 }
